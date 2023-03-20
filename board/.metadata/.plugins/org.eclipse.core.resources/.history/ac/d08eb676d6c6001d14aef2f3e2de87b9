@@ -1,0 +1,14 @@
+package com.board.persistence;
+
+public class JDBCTest {
+	static {
+		try {
+			Class.forName("com.mysql.cj.jdbc.Driver");
+		}catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	@Test
+	}
+}

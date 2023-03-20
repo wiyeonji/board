@@ -1,0 +1,20 @@
+package com.board.model;
+
+/*
+create table board_member(
+memeberId varchar(50) primary key,
+memperPw varchar(50) not null,
+memberName varchar(30) not null,
+memeberMail varchar(50) not null,
+regDate date not null
+);
+ */
+
+public class MemberVO {
+	private String memberId;
+	private String memberPw;
+	private String memberName;
+	private String memberMail;
+	private int regDate;
+	
+}
